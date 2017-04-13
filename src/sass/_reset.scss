@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $body-bg-color;
+    font-size: $font-size-base;
+    font-family: $font-sans-serif;
+    position: relative;
+}
+
+ul.custom-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+p {
+    font-size: $font-size-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
