@@ -16,7 +16,7 @@ body {
     position: relative;
 }
 
-ul.custom-list {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -29,6 +29,8 @@ a {
 
 p {
     font-size: $font-size-base;
+    color: lighten($black, 20%);
+    line-height: 1.25;
 }
 
 h1,
@@ -39,4 +41,8 @@ h5,
 h6,
 p {
     margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-headings;
 }

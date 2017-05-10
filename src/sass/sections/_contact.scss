@@ -1,4 +1,11 @@
 .contact {
-  background-color: tomato;
-  transform: translateY(100%);
+ background-color: lighten($accent-color, 20%);
+  @include translate(0, 100%);
+  .back-button {
+    .nav-button-inner {
+      -ms-transform: translate3d(-50%, -50%, 20px) rotate(90deg);
+      -webkit-transform: translate3d(-50%, -50%, 20px) rotate(90deg);
+      transform: translate3d(-50%, -50%, 20px) rotate(90deg);
+    }
+  }
 }

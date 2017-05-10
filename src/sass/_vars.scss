@@ -1,13 +1,20 @@
-// Colors
+// Default Colors
 $white: #ffffff;
 $black: #000000;
-$body-bg-color: #56aaca;
 
-$primary-color: #56aaca;
-$accent-color: #4484CE;
+$primary-color: #e3e3e3;
+$accent-color: #89bdd3;
 $secondary-color: #FACE1F;
+
+$body-bg-color: $primary-color;
+
+// vibrant-theme colors
+$primary-color-v: #4ea2de;
+$accent-color-v: #ad0057;
+$body-bg-color-v: $primary-color-v;
 
 // Font
 $font-size-base: 18px !default;
-$font-sans-serif: 'Lato', Helvetica, Arial, sans-serif;
+$font-sans-serif: 'Open Sans', Helvetica, Arial, sans-serif;
+$font-headings: 'Hind Madurai', Helvetica, Arial, sans-serif;
 $font-serif: Georgia, 'Times', serif;

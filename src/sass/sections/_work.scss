@@ -1,4 +1,4 @@
 .work {
-  background-color: gray;
-  transform: translateX(100%);
+  background-color: lighten($accent-color, 20%);
+  @include translate(100%, 0);
 }
